@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_898ef2d2fd8f8c89d55dccef8f045be0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_898ef2d2fd8f8c89d55dccef8f045be0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_898ef2d2fd8f8c89d55dccef8f045be0 = L.map(
+                "map_898ef2d2fd8f8c89d55dccef8f045be0",
+                {
+                    center: [34.0522, -118.2437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_674fe9e24164038439f53b2dfce8533e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            var marker_6ac9adcc670fa1be63cfb4958583634c = L.marker(
+                [33.9786, -118.2176],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_6ac9adcc670fa1be63cfb4958583634c.bindTooltip(
+                `<div>
+                     Zip Code: 90255, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_682b15bfceb9ff101302edc7b057851c = L.marker(
+                [34.0503, -118.2115],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_682b15bfceb9ff101302edc7b057851c.bindTooltip(
+                `<div>
+                     Zip Code: 90033, Frequency: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_804d0730ea8b6253dbf9b115514130b9 = L.marker(
+                [33.9498, -118.2468],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_804d0730ea8b6253dbf9b115514130b9.bindTooltip(
+                `<div>
+                     Zip Code: 90002, Frequency: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db2cfec7a17831eda5eb8150e1ed012a = L.marker(
+                [34.2383, -118.4848],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_db2cfec7a17831eda5eb8150e1ed012a.bindTooltip(
+                `<div>
+                     Zip Code: 91343, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f39f1db831943a2eac55a464db0c0d36 = L.marker(
+                [34.1996, -118.4483],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_f39f1db831943a2eac55a464db0c0d36.bindTooltip(
+                `<div>
+                     Zip Code: 91405, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79df8df7fb1b92ea475896cd0681550c = L.marker(
+                [34.0298, -118.2827],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_79df8df7fb1b92ea475896cd0681550c.bindTooltip(
+                `<div>
+                     Zip Code: 90007, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2b83ab1d6c0a93997088292b61ccf5f = L.marker(
+                [34.0239, -118.1536],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_e2b83ab1d6c0a93997088292b61ccf5f.bindTooltip(
+                `<div>
+                     Zip Code: 90022, Frequency: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_554df8087c92b497e25bb400d4e22649 = L.marker(
+                [33.9646, -118.2739],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_554df8087c92b497e25bb400d4e22649.bindTooltip(
+                `<div>
+                     Zip Code: 90003, Frequency: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d549b7af4f598eb6ebbabcafbea0fe6 = L.marker(
+                [33.9533, -118.2916],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_2d549b7af4f598eb6ebbabcafbea0fe6.bindTooltip(
+                `<div>
+                     Zip Code: 90044, Frequency: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33704d90caeb8d9fff049b12809f06d6 = L.marker(
+                [34.0484, -118.2945],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_33704d90caeb8d9fff049b12809f06d6.bindTooltip(
+                `<div>
+                     Zip Code: 90006, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5a16091829092687010d68ea7fdb308 = L.marker(
+                [34.0074, -118.2588],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_d5a16091829092687010d68ea7fdb308.bindTooltip(
+                `<div>
+                     Zip Code: 90011, Frequency: 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb836e4ca6296e02dc59ac11c3fc25bd = L.marker(
+                [34.109, -118.2266],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_cb836e4ca6296e02dc59ac11c3fc25bd.bindTooltip(
+                `<div>
+                     Zip Code: 90065, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab8e6d03c72faea36e24b5ae52613896 = L.marker(
+                [34.1814, -118.3887],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_ab8e6d03c72faea36e24b5ae52613896.bindTooltip(
+                `<div>
+                     Zip Code: 91606, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0afabce1679309626983a377e3ba2152 = L.marker(
+                [34.0782, -118.2606],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_0afabce1679309626983a377e3ba2152.bindTooltip(
+                `<div>
+                     Zip Code: 90026, Frequency: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a09f303c90ede8cc8ae0d6455d1935b = L.marker(
+                [33.9881, -118.3316],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_1a09f303c90ede8cc8ae0d6455d1935b.bindTooltip(
+                `<div>
+                     Zip Code: 90043, Frequency: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06319e8883fe7ae2a2de64044c930a62 = L.marker(
+                [34.0861, -118.4503],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_06319e8883fe7ae2a2de64044c930a62.bindTooltip(
+                `<div>
+                     Zip Code: 90072, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b596d3b948adcad70eefe68832e481c = L.marker(
+                [33.9231, -118.2453],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_0b596d3b948adcad70eefe68832e481c.bindTooltip(
+                `<div>
+                     Zip Code: 90059, Frequency: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0c748f3511b6bf47472374e3324b17b = L.marker(
+                [33.9337, -118.3444],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_c0c748f3511b6bf47472374e3324b17b.bindTooltip(
+                `<div>
+                     Zip Code: 90303, Frequency: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_919c5824ebd33900d163be789e071631 = L.marker(
+                [34.0526, -118.2674],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_919c5824ebd33900d163be789e071631.bindTooltip(
+                `<div>
+                     Zip Code: 90017, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc94bdf1ec6e339ad5a6f57caa8fbbf2 = L.marker(
+                [34.2562, -118.4249],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_dc94bdf1ec6e339ad5a6f57caa8fbbf2.bindTooltip(
+                `<div>
+                     Zip Code: 91331, Frequency: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a45c647343ecba6c7b21a637c849d548 = L.marker(
+                [33.9143, -118.3491],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_a45c647343ecba6c7b21a637c849d548.bindTooltip(
+                `<div>
+                     Zip Code: 90250, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_768b14d53fdba23613541392d3dbc5fb = L.marker(
+                [33.7806, -118.2636],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_768b14d53fdba23613541392d3dbc5fb.bindTooltip(
+                `<div>
+                     Zip Code: 90744, Frequency: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_625964c9098d8ccb6ee54cf744acabaf = L.marker(
+                [34.0616, -118.2764],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_625964c9098d8ccb6ee54cf744acabaf.bindTooltip(
+                `<div>
+                     Zip Code: 90057, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_895c63515ed33f87466f2736430b454a = L.marker(
+                [34.0433, -118.2022],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_895c63515ed33f87466f2736430b454a.bindTooltip(
+                `<div>
+                     Zip Code: 90063, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9181ba526c5dafdae5e672f623eea1b4 = L.marker(
+                [34.2282, -118.3813],
+                {}
+            ).addTo(map_898ef2d2fd8f8c89d55dccef8f045be0);
+        
+    
+            marker_9181ba526c5dafdae5e672f623eea1b4.bindTooltip(
+                `<div>
+                     Zip Code: 91352, Frequency: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
